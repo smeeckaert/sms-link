@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <script src="./sms-link.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (function () {
+            link = new SMSLink.link();
+            link.replaceAll();
+        }), false);
+    </script>
+</head>
+<body>
+
+<h1>Test theses links with different browsers</h1>
+
+<a href="sms:+33102030405">Number alone</a>
+
+<br>
+<a href="sms:?body=That's a nice 🐓 you have">Body alone</a>
+<br>
+<a href="sms:+33102030405?body=That's a nice 🐓 you have">Test with body</a>
+
+
+</body>
+</html>

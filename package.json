@@ -1,0 +1,13 @@
+{
+  "name": "sms-link",
+  "version": "1.0.0",
+  "description": "Make your sms link working everywhere",
+  "author": "Martin Smeeckaert",
+  "devDependencies": {
+    "grunt": "",
+    "grunt-cli": "",
+    "grunt-contrib-watch": "",
+    "grunt-contrib-uglify": "",
+    "grunt-contrib-copy": ""
+  }
+}
